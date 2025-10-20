@@ -1,0 +1,23 @@
+remote_theme: just-the-docs/just-the-docs
+plugins:
+  - jekyll-remote-theme
+
+# Allow Jekyll to render files inside the _pages folder
+include:
+  - _pages
+
+# Just the Docs settings
+just_the_docs:
+  custom_css:
+    - assets/css/custom.css
+  logo: "/assets/images/logo.png" # optional
+  aux_links:
+    "View on GitHub":
+      - "https://github.com/yourusername/your-repo"
+
+# Site info
+title: Alderholt Archives
+description: Local history of Alderholt and Cripplestyle
+baseurl: "" # leave empty for user/organization site
+url: "https://yourusername.github.io"
+
