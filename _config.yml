@@ -5,6 +5,7 @@ plugins:
 # Allow Jekyll to render files inside the _pages folder
 include:
   - _pages
+  - _docs
 
 # Just the Docs settings
 just_the_docs:
